@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="display" id="display">
+            <input class="expression" type="text" disabled>
+            <input class="answer" type="text" disabled>
+        </div>
+        <div class="buttons">
+            <div class="numbers">
+                <div class="seven_eight_nine">
+                    <button class="number" id="number_7" onclick="print('number_7')">7</button>
+                    <button class="number" id="number_8" onclick="print('number_8')">8</button>
+                    <button class="number" id="number_9" onclick="print('number_9')">9</button>
+                </div>
+                <div class="four_five_six">
+                    <button class="number" id="number_4" onclick="print('number_4')">4</button>
+                    <button class="number" id="number_5" onclick="print('number_5')">5</button>
+                    <button class="number" id="number_6" onclick="print('number_6')">6</button>
+                </div>
+                <div class="one_two_three">
+                    <button class="number" id="number_1" onclick="print('number_1')">1</button>
+                    <button class="number" id="number_2" onclick="print('number_2')">2</button>
+                    <button class="number" id="number_3" onclick="print('number_3')">3</button>
+                </div>
+                <div class="zero">
+                    <button class="number" id="clear" onclick="clean()">C</button>
+                    <button class="number" id="number_0" onclick="print('number_0')">0</button>
+                </div>
+            </div>
+            <div class="signs">
+                <button class="sign" id="plus" onclick="print('plus')">+</button>
+                <button class="sign" id="minus" onclick="print('minus')">-</button>
+                <button class="sign" id="multiply" onclick="print('multiply')">*</button>
+                <button class="sign" id="divide" onclick="print('divide')">/</button>
+                <button class="sign" id="equal" onclick="expression()">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

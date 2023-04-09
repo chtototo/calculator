@@ -1,0 +1,224 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+  ​
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+  ​
+body {
+  line-height: 1;
+}
+  ​
+ol, ul {
+  list-style: none;
+}
+  ​
+blockquote, q {
+  quotes: none;
+}
+  ​
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+  ​
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*=====================================*/
+
+body {
+  background-color: #17191A;
+  font-family: Arial;
+  color: #fff;
+}
+
+.main {
+  max-width: 465px;
+  padding: 15px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.one_two_three {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.four_five_six {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.seven_eight_nine {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.zero {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 55px;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.number {
+  display: flex;
+  
+}
+
+.signs {
+  display: flex;
+  flex-direction: column;
+  max-width: 100px;
+  box-sizing: border-box;
+}
+
+.sign {
+  display: flex;
+  width: 100px;
+  height: 100%;
+  background-color: #005DB1;
+  color: #fff;
+} 
+
+.display {
+  display: flex;
+  background-color: #17191A;
+  height: 300px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 455px;
+  margin: 10px;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.answer {
+  display: flex;
+  background-color: #17191A;
+  color: #fff;
+  height: 50px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  border-width: 0px;
+  font-weight: 700;
+  padding: 10px;
+  font-size: 50px;
+  text-align: right;
+}
+
+.expression {
+  display: flex;
+  background-color: #17191A;
+  color: gray;
+  height: 50px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  border-width: 0px;
+  font-weight: 700;
+  padding: 10px;
+  font-size: 30px;
+  text-align: right;
+  margin-bottom: 30px;
+  animation-duration: 0.2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-bottom: 0px;
+    font-size: 50px;
+    color: #fff;
+  }
+
+  to {
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+}
+
+
+button {
+  border-width: 0px;
+  margin: 10px;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  font-weight: 550;
+  border-radius: 25px;
+  font-size: large;
+  width: 100px;
+  height: 100px;
+  background-color: #2F3135;
+  color: #3882B8;
+}
+
+button:hover {
+  background-color: #616063;
+  transition: 70ms;
+}
+
+button:active {
+  background-color: gray;
+  transition: 70ms;
+}
+
+.sign:hover {
+  background-color: #1992FF;
+  transition: 70ms;
+}
+
+.sign:active {
+  background-color: #329fff;
+  transition: 70ms;
+}
